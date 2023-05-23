@@ -23,6 +23,29 @@ public class Main {
         }
         else{
             System.out.println("But Narnia would be sad to see you go... Bye then :(\n");
+            exit();
         }
+        // Narnia Suffers. The player proceeds.
+        System.out.println("You find yourself exploring the outskirts of a small Narnian village. As you wander through the quaint streets, you notice an agitated crowd gathered around a notice board.\n");
+        System.out.println("Curious, you approach the crowd and read the announcement posted on the board. It proclaims a reward offered by the noble King Peter for anyone who can provide information about a powerful artifact known as the 'Frostbane Crystal.'\n");
+        System.out.println("Villager: You there! Are you an adventurer? We need your help! The Frostbane Crystal, said to have the power to weaken the White Witch's icy magic, has been stolen. Without it, we stand no choice against her tyranny.\n");
+        System.out.println("What is your reply?" +
+                "1. Where is the stolen crystal?" + "Please select the available option by pressing 1: ");
+        String answer = userInput.nextLine();
+        int reply = Integer.parseInt(answer);
+        while (reply == 1) {
+            System.out.println("Villager: Rumors point to the forest of Everfrost as the hiding place of the Frostbane Crystal. It is a treacherous and enchanted woodland, home to mythical creatures and guarded by ancient magic.\n")
+            System.out.println("You understand that recovering the Frostbane Crystal is a vital step towards defeating the White Witch and restoring peace to Narnia. Will you decide to venture into the mysterious depths of Everfrost Forest, determined to retrieve the artifact and aid the villagers in their struggle? Select an answer - 1 for Yes and 2 for No: \n")
+            String response = userInput.nextLine();
+            int selection = Integer.parseInt(response);
+            if (selection == 1) {
+                System.out.println("Villager: Great! Let's go fight beside the rebels for our FREEDOM!");
+            }
+            else {
+                System.out.println("Villager: Alright! Let's move over to the Wisdom Tree instead.");
+            }
+            break;
+        }
+
     }
     }
