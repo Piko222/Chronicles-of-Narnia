@@ -23,7 +23,7 @@ public class Main {
         }
         else{
             System.out.println("But Narnia would be sad to see you go... Bye then :(\n");
-            exit();
+            System.exit(0);
         }
         // Narnia Suffers. The player proceeds.
         System.out.println("You find yourself exploring the outskirts of a small Narnian village. As you wander through the quaint streets, you notice an agitated crowd gathered around a notice board.\n");
@@ -34,8 +34,8 @@ public class Main {
         String answer = userInput.nextLine();
         int reply = Integer.parseInt(answer);
         while (reply == 1) {
-            System.out.println("Villager: Rumors point to the forest of Everfrost as the hiding place of the Frostbane Crystal. It is a treacherous and enchanted woodland, home to mythical creatures and guarded by ancient magic.\n")
-            System.out.println("You understand that recovering the Frostbane Crystal is a vital step towards defeating the White Witch and restoring peace to Narnia. Will you decide to venture into the mysterious depths of Everfrost Forest, determined to retrieve the artifact and aid the villagers in their struggle? Select an answer - 1 for Yes and 2 for No: \n")
+            System.out.println("Villager: Rumors point to the forest of Everfrost as the hiding place of the Frostbane Crystal. It is a treacherous and enchanted woodland, home to mythical creatures and guarded by ancient magic.\n");
+            System.out.println("You understand that recovering the Frostbane Crystal is a vital step towards defeating the White Witch and restoring peace to Narnia. Will you decide to venture into the mysterious depths of Everfrost Forest, determined to retrieve the artifact and aid the villagers in their struggle? Select an answer - 1 for Yes and 2 for No: \n");
             String response = userInput.nextLine();
             int selection = Integer.parseInt(response);
             if (selection == 1) {
