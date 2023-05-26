@@ -14,12 +14,15 @@ public class Main {
         System.out.println();
         System.out.println("Remember, the White Witch's reign must be brought to an end, and the rightful ruler of Narnia must be restored. The adventure awaits. Are you ready to step forward and embrace your destiny?\n");
         System.out.println();
-        System.out.println("Do you wish to continue? Enter 1 for yes and 0 for no: ");
+        System.out.println("Do you wish to continue? Enter 1 for yes and 0 for no: \n");
         Scanner userInput = new Scanner(System.in);
         String option = userInput.nextLine();
         int choice = Integer.parseInt(option);
+        System.out.println();
+        System.out.println("Please enter your preferred name: \n");
+        String name = userInput.nextLine();
         if (choice == 1){
-        System.out.println("Okay! Let's go...\n");
+        System.out.println("Okay! Let's go " + name);
         }
         else{
             System.out.println("But Narnia would be sad to see you go... Bye then :(\n");
@@ -117,7 +120,75 @@ public class Main {
             }
             break;
         }
+     // To fight or not to fight.
+        System.out.println("You now have a full understanding of the struggles the inhabitants of Narnia face and the dire need for change. Now it's up to you to decide, how will you address this situation? Please, enter 1 for Option 1 and enter 2 for Option 2: ");
+        System.out.println();
+        System.out.println(" 1. Gather Allies and forces and fight the White Witch.");
+        System.out.println();
+        System.out.println(" 2. Seek to broker peace between the White Witch and the rest of Narnia.");
+        String your_choice = userInput.nextLine();
+        int your_decision = Integer.parseInt(your_choice);
+        if (your_decision == 1) {
+            System.out.println();
+            System.out.println("Your response: Alright! Let's go gather the Allies and forces. We'll fight and defeat the White Witch, gain our freedom and peace!");
+            System.out.println();
+            System.out.println("Professor Alden (an ally and a wise Narnian): I know something we really need to win this battle. It is an artefact... not just an ordinary artefact, but a magical one and it's called The Amulet of Thawing. The Amulet of Thawing can change the tide of the battle and grant us victory. It possesses the ability to restore life and vitality to frozen or withered elements of Narnia. It can also reverse the effects of the White Witch's eternal winter, gradually melting away the ice and bringing back the beauty and vibrancy of the land. The Amulet of Thawing can also weaken the White Witch's powers, making her more vulnerable to attacks. It disrupts the source of her magic and diminishes her control over ice and cold.\n");
+            System.out.println();
+            System.out.println("Your response: Cool! Let's find the artefact then...\n");
+            System.out.println();
+            System.out.println("As you follow the advice of the wise Narnian allies, you venture deep into the heart of the frozen wilderness. The path is fraught with peril, with icy winds howling and blinding snowstorms threatening to obscure your way. The landscape is a frozen expanse, where shimmering ice crystals glisten like diamonds under the pale sunlight.\n");
+            System.out.println();
+            System.out.println("After enduring a series of challenging trials, such as navigating treacherous icy slopes, traversing frozen ravines, and overcoming frosty guardians, you finally reach the foot of the Frostpeak Citadel. The fortress stands as a solitary sentinel against the relentless winter, its imposing walls coated in the thick layers of ice, creating an ethereal and formidable sight.\n");
+            System.out.println();
+            System.out.println("To reach the Amulet of Thawing hidden within, you must ascend the frost-bitten steps carved into the mountainside, braving biting winds and numbing temperatures. Along the way, you encounter intricate ice sculptures and frozen puzzles that test your wits and determination.\n");
+            System.out.println();
+            System.out.println("Upon reaching the summit, you find yourself standing before the Citadel's grand entrance - an immense door carved from solid ice, adorned with intricate frost motifs. The door, enchanted to only open to those who solve the riddle guarding the amulet. A rumbling voice asks you a riddle, the answer of which will show you are deserving and grant you entrance to the amulet.\n");
+            System.out.println();
+            System.out.println("Rumbling voice: I am a fire without heat, a cold flame that does not burn. I can conquer the strongest fortress, yet my touch is gentle. What am I? \n");
+            System.out.println();
+            System.out.println("A. Love\n");
+            System.out.println("B. Ice\n");
+            System.out.println("C. Time\n");
+            System.out.println("D. Music\n");
+            System.out.println();
+            System.out.println("Your response: " + " Please choose/enter a letter for your answer, A, B, C, or D: \n");
+            String correct_answer = "B";
+            String user_answer = userInput.nextLine();
+            if (user_answer == correct_answer) {
+                System.out.println();
+                System.out.println("Rumbling voice: Correct! You are worthy. You may go in now!\n");
+                System.out.println();
+                System.out.println("The massive ice door groans and cracks open, granting you entry into the heart of the Frostpeak Citadel. Within lies a chamber bathed in a soft, pulsating glow, revealing the coveted Amulet of Thawing resting atop a pedestal of shimmering ice crystals. You approach, your breath visible in the frigid air, as you reach out to claim the Amulet of Thawing - a symbol of hope and the key to countering the White Witch's icy dominion over Narnia.\n");
+                System.out.println();
+            } else{
+                System.out.println("Rumbling voice: Wrong! Leave now or I would crash down on you!\n");
+                System.out.println();
+                System.out.println("The entire structure begins to shake in a massive earthquake and threatens to swallow you whole. You run back down the mountain and escape being engulfed by a giant snowball that forms almost magically. On your return to the village, you let everyone know of your failure to retrieve the amulet. They are downcast but decide to proceed without it, hoping the power of their number will save them.\n");
+                System.out.println();
+            }
 
+        } else{
+            System.out.println();
+            System.out.println("You have two options: \n");
+            System.out.println();
+            System.out.println("Option 1: Diplomatic approach - You and your allies gather and meet the White Witch to find a middle ground.\n");
+            System.out.println();
+            System.out.println("Option 2: Solo Diplomacy - You go to meet the White Witch alone with hopes that you can appeal to her remaining humanity.\n");
+            System.out.println();
+            System.out.println("Please, choose wisely. What option, enter 1 for Option 1 and 2 for Option 2: \n");
+            String take = userInput.nextLine();
+            int user_choice = Integer.parseInt(take);
+            if (user_choice == 1) {
+                System.out.println();
+                System.out.println("You: As I contemplate my approach to the White Witch, I can't shake the feeling that I shouldn't face her alone. I have fought alongside my allies throughout this journey, and their support has been invaluable. Seeking guidance, I turn to a wise and trusted friend, the courageous and loyal badger, Bramble.\n");
+                System.out.println();
+                System.out.println("You: Bramble, I have chosen the path of diplomacy to engage the White Witch, but I'm hesitant to face her alone. What if she refuses to listen or turns hostile? Should I go with my allies by my side?\n");
+                System.out.println();
+                System.out.println("*Bramble: The steadfast Badger regards me with a knowing gaze, his voice filled with  wisdom.* Dear friend, your allies have stood beside you through thick and thin. Their loyalty and strength will bolster your cause and provide a united front. Together, you can face any challenge that comes your way. Trust in the power of unity and let your allies join you in this crucial endeavour.\n");
+                System.out.println();
+            } else{
+
+        }
 
 
     }
