@@ -236,7 +236,7 @@ public class Main {
                             "You: I understand your doubts. White Witch, and I cannot erase the past. But I come to you sincerely, seeking a path that avoids further bloodshed. Look into your heart, and you will see the weariness of perpetual conflict. Let us find common ground and forge a future where both Narnians and your reign can exist without enmity.\n");
                     System.out.println();
                     System.out.println(
-                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexitence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
+                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexistence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
                     System.out.println();
                     System.out.println(
                             "You: I offer you my word, White Witch. I pledge to uphold the terms of any agreement we reach, and I will work tirelessly to foster understanding and maintain peace among all Narnians. I cannot control the actions of others, but I can assure you of my commitment to a lasting resolution.\n");
@@ -262,7 +262,7 @@ public class Main {
                                 "Defeat is near... As the White Witch's decision becomes apparent, the air grows colder, and a sense of impending doom settles over the battlefield. The sky darkens, and a bone-chilling wind whips through the area, carrying with it the White Witch's malevolent presence.\n");
                         System.out.println();
                         System.out.println(
-                                "With a wave of her hand, the White Witch conjures a swirling vortex of icy energy. The vortex expands rapidly, engulfing you, your allies, and everything in its path. The biting cold cuts through your armor, freezing the ground beneath your feets and encasing you all in a solid wall of ice.\n");
+                                "With a wave of her hand, the White Witch conjures a swirling vortex of icy energy. The vortex expands rapidly, engulfing you, your allies, and everything in its path. The biting cold cuts through your armor, freezing the ground beneath your feet and encasing you all in a solid wall of ice.\n");
                         System.out.println();
                         System.out.println(
                                 "You are now surrounded by an icy prison and you try to summon your strength and break free. Desperate attempts to shatter the ice prove futile, as the White Witch's magic is overpowering. The more you struggle, the more the ice constricts, making it impossible to move or escape.\n");
@@ -309,7 +309,7 @@ public class Main {
                             "You: I understand your doubts. White Witch, and I cannot erase the past. But I come to you sincerely, seeking a path that avoids further bloodshed. Look into your heart, and you will see the weariness of perpetual conflict. Let us find common ground and forge a future where both Narnians and your reign can exist without enmity.\n");
                     System.out.println();
                     System.out.println(
-                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexitence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
+                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexistence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
                     System.out.println();
                     System.out.println(
                             "You: I offer you my word, White Witch. I pledge to uphold the terms of any agreement we reach, and I will work tirelessly to foster understanding and maintain peace among all Narnians. I cannot control the actions of others, but I can assure you of my commitment to a lasting resolution.\n");
@@ -397,7 +397,7 @@ public class Main {
                                 System.out.println();
                                 System.out.println("As you progress in your quest, you come across Edmund, who has strayed from the path. He appears conflicted and vulnerable, standing before a magnificent sleigh driven by the White Witch herself.\n");
                                 System.out.println();
-                                System.out.println("White Witch: (smiling) Ah litthe Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
+                                System.out.println("White Witch: (smiling) Ah little Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
                                 System.out.println();
                                 System.out.println("You'll find yourself facing a critical decision, how will you respond to this? Select the following options. Press 1 for option 1 and 2 for option 2: \n");
                                 System.out.println();
@@ -412,10 +412,16 @@ public class Main {
                                     betrayal = true;
                                     System.out.println();
                                     System.out.println("You: Edmund, perhaps there is truth in the Witch's offer. Imagine the power and influence you could wield at her side. It's an opportunity that should not be squandered.\n");
+                                // The final battle
+
+
                                 } else {
                                     betrayal = false;
                                     System.out.println();
                                     System.out.println("You: Edmund, don't be swayed by the Witch's empty promises. She seeks to deceive and control you. Remember your family, your loyalty, and true meaning of Narnia. Choose wisely.\n");
+                                   // The final battle
+
+
                                 }
                             }
                         }
@@ -468,7 +474,7 @@ public class Main {
                             "You: I understand your doubts. White Witch, and I cannot erase the past. But I come to you sincerely, seeking a path that avoids further bloodshed. Look into your heart, and you will see the weariness of perpetual conflict. Let us find common ground and forge a future where both Narnians and your reign can exist without enmity.\n");
                     System.out.println();
                     System.out.println(
-                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexitence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
+                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexistence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
                     System.out.println();
                     System.out.println(
                             "You: I offer you my word, White Witch. I pledge to uphold the terms of any agreement we reach, and I will work tirelessly to foster understanding and maintain peace among all Narnians. I cannot control the actions of others, but I can assure you of my commitment to a lasting resolution.\n");
@@ -494,7 +500,7 @@ public class Main {
                                 "Defeat is near... As the White Witch's decision becomes apparent, the air grows colder, and a sense of impending doom settles over the battlefield. The sky darkens, and a bone-chilling wind whips through the area, carrying with it the White Witch's malevolent presence.\n");
                         System.out.println();
                         System.out.println(
-                                "With a wave of her hand, the White Witch conjures a swirling vortex of icy energy. The vortex expands rapidly, engulfing you, your allies, and everything in its path. The biting cold cuts through your armor, freezing the ground beneath your feets and encasing you all in a solid wall of ice.\n");
+                                "With a wave of her hand, the White Witch conjures a swirling vortex of icy energy. The vortex expands rapidly, engulfing you, your allies, and everything in its path. The biting cold cuts through your armor, freezing the ground beneath your feet and encasing you all in a solid wall of ice.\n");
                         System.out.println();
                         System.out.println(
                                 "You are now surrounded by an icy prison and you try to summon your strength and break free. Desperate attempts to shatter the ice prove futile, as the White Witch's magic is overpowering. The more you struggle, the more the ice constricts, making it impossible to move or escape.\n");
@@ -541,7 +547,7 @@ public class Main {
                             "You: I understand your doubts. White Witch, and I cannot erase the past. But I come to you sincerely, seeking a path that avoids further bloodshed. Look into your heart, and you will see the weariness of perpetual conflict. Let us find common ground and forge a future where both Narnians and your reign can exist without enmity.\n");
                     System.out.println();
                     System.out.println(
-                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexitence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
+                            "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexistence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
                     System.out.println();
                     System.out.println(
                             "You: I offer you my word, White Witch. I pledge to uphold the terms of any agreement we reach, and I will work tirelessly to foster understanding and maintain peace among all Narnians. I cannot control the actions of others, but I can assure you of my commitment to a lasting resolution.\n");
@@ -622,7 +628,7 @@ public class Main {
                                 // The Betrayal
                                 System.out.println("As you progress in your quest, you come across Edmund, who has strayed from the path. He appears conflicted and vulnerable, standing before a magnificent sleigh driven by the White Witch herself.\n");
                                 System.out.println();
-                                System.out.println("White Witch: (smiling) Ah litthe Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
+                                System.out.println("White Witch: (smiling) Ah little Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
                                 System.out.println();
                                 System.out.println("You'll find yourself facing a critical decision, how will you respond to this? Select the following options. Press 1 for option 1 and 2 for option 2: \n");
                                 System.out.println();
@@ -637,10 +643,16 @@ public class Main {
                                     betrayal = true;
                                     System.out.println();
                                     System.out.println("You: Edmund, perhaps there is truth in the Witch's offer. Imagine the power and influence you could wield at her side. It's an opportunity that should not be squandered.\n");
+                                 // The final battle
+
+
                                 } else {
                                     betrayal = false;
                                     System.out.println();
                                     System.out.println("You: Edmund, don't be swayed by the Witch's empty promises. She seeks to deceive and control you. Remember your family, your loyalty, and true meaning of Narnia. Choose wisely.\n");
+                                // The final battle
+
+
                                 }
 
                             } else {
@@ -654,7 +666,7 @@ public class Main {
                                 System.out.println();
                                 System.out.println("As you progress in your quest, you come across Edmund, who has strayed from the path. He appears conflicted and vulnerable, standing before a magnificent sleigh driven by the White Witch herself.\n");
                                 System.out.println();
-                                System.out.println("White Witch: (smiling) Ah litthe Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
+                                System.out.println("White Witch: (smiling) Ah little Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
                                 System.out.println();
                                 System.out.println("You'll find yourself facing a critical decision, how will you respond to this? Select the following options. Press 1 for option 1 and 2 for option 2: \n");
                                 System.out.println();
@@ -669,10 +681,12 @@ public class Main {
                                     betrayal = true;
                                     System.out.println();
                                     System.out.println("You: Edmund, perhaps there is truth in the Witch's offer. Imagine the power and influence you could wield at her side. It's an opportunity that should not be squandered.\n");
+                                 // The final battle
                                 } else {
                                     betrayal = false;
                                     System.out.println();
                                     System.out.println("You: Edmund, don't be swayed by the Witch's empty promises. She seeks to deceive and control you. Remember your family, your loyalty, and true meaning of Narnia. Choose wisely.\n");
+                                // The final battle
                                 }
                             }
 
@@ -724,7 +738,7 @@ public class Main {
                         "You: I understand your doubts. White Witch, and I cannot erase the past. But I come to you sincerely, seeking a path that avoids further bloodshed. Look into your heart, and you will see the weariness of perpetual conflict. Let us find common ground and forge a future where both Narnians and your reign can exist without enmity.\n");
                 System.out.println();
                 System.out.println(
-                        "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexitence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
+                        "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexistence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
                 System.out.println();
                 System.out.println(
                         "You: I offer you my word, White Witch. I pledge to uphold the terms of any agreement we reach, and I will work tirelessly to foster understanding and maintain peace among all Narnians. I cannot control the actions of others, but I can assure you of my commitment to a lasting resolution.\n");
@@ -750,7 +764,7 @@ public class Main {
                             "Defeat is near... As the White Witch's decision becomes apparent, the air grows colder, and a sense of impending doom settles over the battlefield. The sky darkens, and a bone-chilling wind whips through the area, carrying with it the White Witch's malevolent presence.\n");
                     System.out.println();
                     System.out.println(
-                            "With a wave of her hand, the White Witch conjures a swirling vortex of icy energy. The vortex expands rapidly, engulfing you, your allies, and everything in its path. The biting cold cuts through your armor, freezing the ground beneath your feets and encasing you all in a solid wall of ice.\n");
+                            "With a wave of her hand, the White Witch conjures a swirling vortex of icy energy. The vortex expands rapidly, engulfing you, your allies, and everything in its path. The biting cold cuts through your armor, freezing the ground beneath your feet and encasing you all in a solid wall of ice.\n");
                     System.out.println();
                     System.out.println(
                             "You are now surrounded by an icy prison and you try to summon your strength and break free. Desperate attempts to shatter the ice prove futile, as the White Witch's magic is overpowering. The more you struggle, the more the ice constricts, making it impossible to move or escape.\n");
@@ -797,7 +811,7 @@ public class Main {
                         "You: I understand your doubts. White Witch, and I cannot erase the past. But I come to you sincerely, seeking a path that avoids further bloodshed. Look into your heart, and you will see the weariness of perpetual conflict. Let us find common ground and forge a future where both Narnians and your reign can exist without enmity.\n");
                 System.out.println();
                 System.out.println(
-                        "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexitence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
+                        "White Witch: (Contemplative silence follows as the White Witch ponders the player's words). You speak of coexistence, of a future free from strife. But what assurance can you provide that your allies won't turn against me once more? Why should I trust your intentions?\n");
                 System.out.println();
                 System.out.println(
                         "You: I offer you my word, White Witch. I pledge to uphold the terms of any agreement we reach, and I will work tirelessly to foster understanding and maintain peace among all Narnians. I cannot control the actions of others, but I can assure you of my commitment to a lasting resolution.\n");
@@ -848,7 +862,7 @@ public class Main {
                     System.out.println();
                     System.out.println(
                             "Do you have the Amulet of Thawing? If yes, move along. If no, you have just one chance to get it now. Please answer the coming question.\n");
-                    if (hasAmulet == true) {
+                    if (hasAmulet) {
                         System.out.println();
                         System.out.println("Great! Let's move on then!\n");
                     } else {
@@ -874,9 +888,10 @@ public class Main {
                             System.out.println();
                             System.out.println("Let's move on then.\n");
                             System.out.println();
+                            // The Betrayal
                             System.out.println("As you progress in your quest, you come across Edmund, who has strayed from the path. He appears conflicted and vulnerable, standing before a magnificent sleigh driven by the White Witch herself.\n");
                             System.out.println();
-                            System.out.println("White Witch: (smiling) Ah litthe Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
+                            System.out.println("White Witch: (smiling) Ah little Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
                             System.out.println();
                             System.out.println("You'll find yourself facing a critical decision, how will you respond to this? Select the following options. Press 1 for option 1 and 2 for option 2: \n");
                             System.out.println();
@@ -891,10 +906,12 @@ public class Main {
                                 betrayal = true;
                                 System.out.println();
                                 System.out.println("You: Edmund, perhaps there is truth in the Witch's offer. Imagine the power and influence you could wield at her side. It's an opportunity that should not be squandered.\n");
+                                // The final battle
                             } else {
                                 betrayal = false;
                                 System.out.println();
                                 System.out.println("You: Edmund, don't be swayed by the Witch's empty promises. She seeks to deceive and control you. Remember your family, your loyalty, and true meaning of Narnia. Choose wisely.\n");
+                                // The final battle
                             }
 
                         } else {
@@ -908,7 +925,7 @@ public class Main {
                             System.out.println();
                             System.out.println("As you progress in your quest, you come across Edmund, who has strayed from the path. He appears conflicted and vulnerable, standing before a magnificent sleigh driven by the White Witch herself.\n");
                             System.out.println();
-                            System.out.println("White Witch: (smiling) Ah litthe Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
+                            System.out.println("White Witch: (smiling) Ah little Edmund, the curious one. What a shame that your siblings don't appreciate your desire for power and recognition. But fear not, dear child, for I can offer you everything you desire. Join me, and you shall be a prince in my eternal winter. You'll have dominion over Narnia, ruling beside me.\n");
                             System.out.println();
                             System.out.println("You'll find yourself facing a critical decision, how will you respond to this? Select the following options. Press 1 for option 1 and 2 for option 2: \n");
                             System.out.println();
