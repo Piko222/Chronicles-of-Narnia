@@ -90,6 +90,8 @@ And you're done!
 To run the program/play the game, you will have to:
 * Create a new project on your IDE.
 * Open a Github account if you do not have one (To open a Github account, go to https://github.com/, type a username with your email address and a password, and choose "Sign up for Github, then follow the instructions).
+* Type in "The Chronicles of Narnia" on the search bar of the Github website and select the one with the username "Piko222."
+* Select the green button called "<>Code" and copy the https link for the program.
 * Perform a git clone on your IDE in order to run the program on your IDE. To perform a git clone on Intellij, you should do one of the following:
 
 1. If you are using Intellij, you can clone using Gitbash. First of all
