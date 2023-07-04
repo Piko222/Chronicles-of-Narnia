@@ -89,7 +89,7 @@ And you're done!
 ### Executing the program/playing the game
 To run the program/play the game, you will have to:
 * Create a new project on your IDE.
-* Open a Github account if you do not have one (To open a Github account, go to https://github.com/, type a username with your email address and a password, and then choose "Sign up for Github
+* Open a Github account if you do not have one (To open a Github account, go to https://github.com/, type a username with your email address and a password, and choose "Sign up for Github, then follow the instructions).
 * Perform a git clone on your IDE in order to run the program on your IDE. To perform a git clone on Intellij, you should do one of the following:
 
 1. If you are using Intellij, you can clone using Gitbash. First of all
