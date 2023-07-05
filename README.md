@@ -81,7 +81,9 @@ rm -f packages.microsoft.gpg
 Then update the package cache and install the package using:
 
 sudo apt install apt-transport-https
+
 sudo apt update
+
 sudo apt install code # or code-insiders
 
 And you're done!
