@@ -96,8 +96,28 @@ To run the program/play the game, you will have to:
 * Select the green button called "<>Code" and copy the https link for the program.
 * Perform a git clone on your IDE in order to run the program on your IDE. To perform a git clone on Intellij, you should do one of the following:
 
-1. If you are using Intellij, you can clone using Gitbash. First of all
+1. If you are using Intellij, you can clone using Gitbash. First of all, click on the terminal
 
+![Screenshot 2023-07-05 224105](https://github.com/Piko222/Chronicles-of-Narnia/assets/134336272/9c416288-77a2-4636-a096-d933dd46df6f)
 
+2. Once you have opened the terminal, click on the following sign for the dropdown menu where you will see the options "Windows Powershell," "Command Prompt," and "Git Bash." If you wish to use the Git Bash in performing the git clone, then simply click it.
 
+![Screenshot 2023-07-05 230106](https://github.com/Piko222/Chronicles-of-Narnia/assets/134336272/b4c7f661-fd3c-473a-8d86-7fc3ed856c9a)
 
+3. After clicking Git Bash and opening it, just type "git clone" along with the https link you had earlier copied (remember to add the dollar sign before typing in "git clone" and the https link, just in case the dollar sign does not automatically appear after opening Git Bash)
+
+4. After typing in "git clone" along with the https link, press the Enter key and allow it to run.
+
+5. You can now find the program on your computer and run it in your IDE. Once you run it, you can play the game.
+
+However, if you are using an IDE other than Intellij such as Visual Studio code Editor, click the link below and follow the instructions to perform a git clone on your IDE. Once you have it locally, you can run the program on your IDE and play the game.
+
+Here's the link - https://www.geeksforgeeks.org/how-to-clone-a-project-from-github-using-vscode/
+
+## Help
+
+The program is still under improvement so please bear with me. Notify me in my email: pokorie31@gmail.com if you have any complaints or if you have feedbacks.
+
+## Author
+@Piko222
+Precious Ifeoma Okorie
